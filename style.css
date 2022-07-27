@@ -1,0 +1,43 @@
+body {
+    overflow-x: hidden;
+    background-image: url("background.jpg");
+
+}
+
+
+.background {
+    position: relative;
+}
+
+
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+body a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+input {
+    border: none;
+}
+.hovering{
+    width: 19rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.hovering img{
+    width: 100%;
+    transition: 1s all ease-in-out;
+}
+
+.hovering:hover img{
+    transform: scale(1.5);
+}
+
